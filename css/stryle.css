@@ -7,13 +7,36 @@
 /* Generics */
 body{
     color: white;
-    
+    background-image: url(../img/wood-wallpaper.webp);
+    padding-top: 10px;
 }
-
-
+h1{
+    display: inline;
+    font-weight: normal;
+    vertical-align: middle;
+}
 
 /* Utils */
 .container{
-    max-width: 920;
+    max-width: 920px;
     margin: 0 auto;
+}
+
+.separator{
+    border: 1px solid lightgray;
+    margin: 10px 0px;
+}
+
+/* Header */
+#logo{
+    height: 100px;
+    vertical-align: middle;
+}
+
+/* Sezione di ricerca */
+button{
+    padding: 1px 6px;
+}
+input{
+    padding: 1px;
 }
